@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>範例檔案目錄</title>
+  <style>
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: "Helvetica Neue", Arial, sans-serif;
+      background: linear-gradient(135deg, #4b79a1 0%, #283e51 100%);
+      color: #f4f7fb;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 2rem;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 700px;
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(12px);
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      border-radius: 20px;
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.25);
+      padding: 2rem;
+    }
+
+    h1 {
+      margin: 0 0 1rem;
+      font-size: 2.4rem;
+      letter-spacing: 0.04em;
+      text-align: center;
+    }
+
+    p {
+      margin: 0 0 1.8rem;
+      font-size: 1rem;
+      text-align: center;
+      color: #dfe6ed;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: grid;
+      gap: 0.9rem;
+    }
+
+    li {
+      margin: 0;
+    }
+
+    a {
+      display: block;
+      padding: 1rem 1.2rem;
+      background: rgba(255, 255, 255, 0.12);
+      border: 1px solid rgba(255, 255, 255, 0.16);
+      border-radius: 14px;
+      color: #f7fbff;
+      text-decoration: none;
+      font-size: 1.05rem;
+      transition: transform 0.2s ease, background 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    a:hover {
+      transform: translateY(-2px);
+      background: rgba(255, 255, 255, 0.22);
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.18);
+    }
+
+    @media (max-width: 480px) {
+      .container {
+        padding: 1.4rem;
+      }
+      h1 {
+        font-size: 2rem;
+      }
+      a {
+        padding: 0.9rem 1rem;
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>範例檔案目錄</h1>
+    <p>請點選下列連結前往各個範例頁面：</p>
+    <ul>
+      <li><a href="ex1/index.html">ex1</a></li>
+      <li><a href="ex2/index.html">ex2</a></li>
+      <li><a href="ex3/index.html">ex3</a></li>
+      <li><a href="ex4/index.html">ex4</a></li>
+      <li><a href="ex5/index.html">ex5</a></li>
+      <li><a href="ex6/index.html">ex6</a></li>
+      <li><a href="ex7/index.html">ex7</a></li>
+      <li><a href="ex8/index.html">ex8</a></li>
+      <li><a href="ex9/index.html">ex9</a></li>
+    </ul>
+  </div>
+</body>
+</html>
